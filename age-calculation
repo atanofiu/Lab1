@@ -7,10 +7,4 @@ def age_calculation():
     age = current_year - birth_year
     print("Your age is:", age)
 
-age_calculation()
 
-
-def helloWorld():
-        print(‘Hello World’)
-
-helloWorld()
