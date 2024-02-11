@@ -1,21 +1,18 @@
-#!/usr/bin/env python3 
-# Author ID: Anofiu Abiola
-
 def age_calculation():
     birth_year = int(input("Enter your birth year: "))
     current_year = int(input("Enter the current year: "))
     age = current_year - birth_year
     print("Your age is:", age)
 
-
-
+# Call the function to test it
+age_calculation()
 
 
 
 def helloWorld():
-	print(‘Hello World’)
-
-
-
+    print('Hello World')
 
 helloWorld()
+
+
+
