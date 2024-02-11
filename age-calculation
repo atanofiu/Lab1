@@ -6,3 +6,16 @@ def age_calculation():
     current_year = int(input("Enter the current year: "))
     age = current_year - birth_year
     print("Your age is:", age)
+
+
+
+
+
+
+def helloWorld():
+	print(‘Hello World’)
+
+
+
+
+helloWorld()
