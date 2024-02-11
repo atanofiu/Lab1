@@ -2,13 +2,17 @@
 # Author ID: Anofiu Abiola
 
 def age_calculation():
-    birth_year = int(input("Enter your birth year: "))
-    current_year = int(input("Enter the current year: "))
-    age = current_year - birth_year
-    print("Your age is:", age)
+    try:
+        birth_year = int(input("Enter your birth year: "))
+        current_year = int(input("Enter the current year: "))
+        age = current_year - birth_year
+        print("Your age is:", age)
+    except ValueError:  
+        
+        print("Please enter an int")
 
-# Call the function to test it
 age_calculation()
+
 
 
 
